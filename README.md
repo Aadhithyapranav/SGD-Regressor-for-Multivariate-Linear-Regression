@@ -8,10 +8,26 @@ To write a program to predict the price of the house and number of occupants in 
 2. Anaconda – Python 3.7 Installation / Jupyter notebook
 
 ## Algorithm
-1. 
-2. 
-3. 
-4. 
+Step 1 — Data Preparation
+
+Load the California Housing dataset.
+Select the first three features (X[:, :3]) as inputs.
+Create a multi-output target matrix by combining the housing target and the 7th feature (Y = [target, X[:, 6]]).
+Split the dataset into training and testing subsets (80/20 split).
+Step 2 — Feature Scaling
+
+Apply StandardScaler to normalize both the input (X) and output (Y) data.
+Fit the scalers on the training data, then transform both training and testing sets (avoid data leakage).
+Step 3 — Model Training
+
+Initialize an SGDRegressor with appropriate hyperparameters (max_iter=1000, tol=1e-3).
+Wrap it using MultiOutputRegressor to enable multi-target regression.
+Train the model on the scaled training data.
+Step 4 — Prediction & Evaluation
+
+Predict outputs for the test data.
+Apply inverse scaling to return predictions to the original scale.
+Evaluate model performance using **Mean Squared Err
 
 ## Program:
 ```
