@@ -36,8 +36,8 @@ Evaluate model performance using **Mean Squared Err
 ```
 /*
 Program to implement the multivariate linear regression model for predicting the price of the house and number of occupants in the house with SGD regressor.
-Developed by: Rogith J
-RegisterNumber: 212224040280 
+Developed by: Aadhithyaa L
+RegisterNumber: 212224220003 
 */
 import numpy as np
 from sklearn.datasets import fetch_california_housing
@@ -79,7 +79,8 @@ print("Predictions:\n", Y_pred[:5])
 ```
 
 ## Output:
-<img width="956" height="213" alt="Screenshot 2025-11-13 083722" src="https://github.com/user-attachments/assets/9d1dfe6f-76eb-4567-b973-ef13805db53d" />
+<img width="1262" height="223" alt="Screenshot 2025-11-28 101418" src="https://github.com/user-attachments/assets/940904d9-4891-49ea-b9e4-0bdd8e5067fc" />
+
 
 ## Result:
 Thus the program to implement the multivariate linear regression model for predicting the price of the house and number of occupants in the house with SGD regressor is written and verified using python programming.
