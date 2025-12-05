@@ -71,8 +71,6 @@ Y_pred = scaler_Y.inverse_transform(Y_pred)
 Y_test = scaler_Y.inverse_transform(Y_test)
 
 mse = mean_squared_error(Y_test, Y_pred)
-print("Name: Rogith J")
-print("Reg No: 212224040280n")
 print("Mean Squared Error:", mse)
 print("Predictions:\n", Y_pred[:5])
 
